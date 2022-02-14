@@ -1,4 +1,10 @@
-x = int(input("Enter a number"))
-y = int(input("Enter the exponent"))
-exp = x**y
-print(exp)
+def power(a,b): 
+     res = 1 
+     for i in range(b): 
+         res *= a 
+     return res
+
+x=int(input("x"))
+y=int(input("y"))
+print(power(x,y))
+ 
